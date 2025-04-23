@@ -2,3 +2,27 @@ my first git commit test
 second commit
 testest
 세번째 커밋
+-----------------------------------
+1. git init (깃이 파일 보게끔 해주고)
+
+2. git config --global user.email "~~~~"(안해도되는데 누가 했는지 모르니까)
+
+3. git config --global user.name "~~"(  ""   )
+
+4. 만들어둔 txt파일에 내용적어두고,
+
+5. 기존에 만들어둔 파일안에 txt파일이름을 적어야하니까
+  ls 로 이름 복사해서 git add ~~~.txt 해줘서 처음버전 만듬
+
+6. git commit -m "커밋 메시지" (스테이지로 커밋 시켜야하니까 메시지랑 같이)
+
+7. 올릴땐 내 레파토리지 주소 가져와서
+   git remote add origin 깃 주소 (origin은 원격저장소란 뜻)
+
+8. git branch -M main (깃헙 안에 브랜치를 만드는데 이름이 main이라는 뜻)
+   아무것도 없는데 올릴순 없으니까
+
+9. git push -u origin main(깃헙으로 푸쉬하는거)
+
+10. 추가로 커밋하고 푸쉬하고싶으면 
+     .txt 수정-> add -> commit -m -> push  
